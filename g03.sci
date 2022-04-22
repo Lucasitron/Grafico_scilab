@@ -4,7 +4,7 @@ para -4 <= (x,) <= 4.*/
 
 //define a função
 function[z]=fx(x,y)
-z=sqrt(9-y^2-x^2)
+z=sqrt(32-y^2-x^2)
 endfunction
 
 //define o intervalo para xy

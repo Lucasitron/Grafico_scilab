@@ -8,7 +8,7 @@ z=sqrt(9-y^2-x^2)
 endfunction
 
 //define o intervalo para xy
-x=[-4:0.25:4]; y=x;
+x=[-3:0.25:3]; y=x;
 
 //joga os valores dentro de uma matriz
 w=feval(x,y,fx);
